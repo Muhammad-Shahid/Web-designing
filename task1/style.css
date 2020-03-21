@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./7.jpg);
+    background-size: 100%;
+}
+
+#ex1{
+
+    float: left;
+    background-color: azure;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    opacity: 0.7;
+    margin: 20px auto 0 60px;
+
+}
+
+
+#ex2{
+    float: left;
+    opacity: 0.2;
+    background-color: beige;
+    margin: 20px auto 0 60px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+
+#ex3 {
+
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 20px auto 0 60px;
+    width: 300px;
+    height: 250px;
+    /* overflow: hidden; */
+    float: left;
+    
+}
+
+#ex3 img{
+    border-top: black dotted 4px;
+    border-bottom: black dotted 4px;
+
+}
