@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu ul {
+    list-style: none;
+   
+    
+
+}
+
+.menu ul li {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(222, 184, 135);
+    /* border-top:1px solid #deb887 ; */
+    /* border-top: solid 5px #deb887 ; */
+    border: solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 4px 0 #deb887 ;
+    
+
+}
+
+.menu ul ul{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 12%;
+    
+    
+}
+
+.menu ul li:hover > ul{
+
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.menu ul li a {
+    
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    box-shadow: 10px deb887;
+   
+   
+}
